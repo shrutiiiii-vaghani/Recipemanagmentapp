@@ -1,0 +1,11 @@
+.recipe-detail-container {
+   border: 1px solid #ccc; 
+  text-align: center;
+  margin: 20px;
+}
+
+.recipe-box {
+ 
+  background-color: #f9f9f9;
+  padding: 20px;
+}

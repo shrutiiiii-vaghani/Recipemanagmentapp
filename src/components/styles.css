@@ -1,0 +1,19 @@
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
